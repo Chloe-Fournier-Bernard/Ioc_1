@@ -391,7 +391,7 @@ timeline.push
   welcome,
   consent,
   consigne,
-  //procedure_testing,
+  procedure_testing,
   );
 
 // Étape 1 : Génération de la variable aléatoire
@@ -427,29 +427,5 @@ timeline.push
   save_data, 
   prolific 
 )
-
-
-// timeline d'origine
-/*
-timeline.push 
-  (browser_check,
-  welcome,
-  consent,
-  consigne,
-  procedure_testing,
-  question,
-  conditional_slider,
-  confidence,
-  attention_check,
-  instruction_demographic_questionnary,
-  genre,
-  age,
-  comment,
-  waiting_demand,
-  save_data, 
-  prolific 
-)
-*/
-
 
 jsPsych.run(timeline);
